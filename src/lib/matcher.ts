@@ -17,19 +17,20 @@ export const SKILLS: Record<string, string[]> = {
 
 export type Job = { title: string; company: string; skills: string[]; why: string; pay: string };
 
+// Curated hybrid roles at real Malaysian organisations.
 export const JOBS: Job[] = [
-  { title: "Clinical Informatics Specialist", company: "Brightward Health", skills: ["health", "tech"], why: "Builds tools nurses actually want to use.", pay: "RM 7,500 / mo" },
-  { title: "Food Scientist", company: "Kettle & Flask Co.", skills: ["food", "science"], why: "Turns kitchen instinct into repeatable recipes.", pay: "RM 6,200 / mo" },
-  { title: "Legal Tech Product Lead", company: "Clausewise", skills: ["law", "tech"], why: "Knows contracts and code in the same breath.", pay: "RM 9,800 / mo" },
-  { title: "Audio Software Developer", company: "Hummingtone Labs", skills: ["music", "tech"], why: "Hears the bug before it shows up.", pay: "RM 8,100 / mo" },
-  { title: "Medical Illustrator", company: "Anatomie Studio", skills: ["health", "art"], why: "Draws the body accurately and beautifully.", pay: "RM 5,400 / mo" },
-  { title: "Science Curriculum Designer", company: "Lumen Learning Lab", skills: ["teach", "science"], why: "Makes chemistry make sense to 14-year-olds.", pay: "RM 5,900 / mo" },
-  { title: "Agri-Data Analyst", company: "Paddy & Pixel", skills: ["nature", "tech"], why: "Reads soil and spreadsheets.", pay: "RM 6,800 / mo" },
-  { title: "Sports Rehab Coordinator", company: "Kinetic Ward", skills: ["sport", "health"], why: "Gets athletes back on the field safely.", pay: "RM 6,000 / mo" },
-  { title: "Fintech UX Designer", company: "Ringgit Rounds", skills: ["finance", "art"], why: "Makes money screens calm, not scary.", pay: "RM 7,700 / mo" },
-  { title: "Health Content Writer", company: "Wellnote Media", skills: ["words", "health"], why: "Explains medicine without the jargon.", pay: "RM 4,800 / mo" },
-  { title: "Culinary Instructor", company: "Saffron School", skills: ["food", "teach"], why: "Teaches cooking with real patience.", pay: "RM 4,500 / mo" },
-  { title: "Regulatory Affairs Chemist", company: "Formula North", skills: ["science", "law"], why: "Bridges the lab and the rulebook.", pay: "RM 8,400 / mo" },
+  { title: "Clinical Informatics Specialist", company: "Sunway Medical Centre · Subang Jaya", skills: ["health", "tech"], why: "Bridges hospital wards and the electronic medical record system.", pay: "RM 7,500 / mo" },
+  { title: "Food Scientist", company: "Nestlé Malaysia · Petaling Jaya", skills: ["food", "science"], why: "Turns kitchen instinct into repeatable, safe recipes at scale.", pay: "RM 6,200 / mo" },
+  { title: "Legal Tech Product Lead", company: "ZICO Law · Kuala Lumpur", skills: ["law", "tech"], why: "Knows contracts and code in the same breath.", pay: "RM 9,800 / mo" },
+  { title: "Audio Software Developer", company: "Media Prima Digital · Bangsar", skills: ["music", "tech"], why: "Hears the bug before it shows up.", pay: "RM 8,100 / mo" },
+  { title: "Medical Illustrator", company: "Taylor's University School of Medicine · Subang", skills: ["health", "art"], why: "Draws the body accurately and beautifully for teaching.", pay: "RM 5,400 / mo" },
+  { title: "Science Curriculum Designer", company: "Cikgu-fy EdTech · Kuala Lumpur", skills: ["teach", "science"], why: "Makes chemistry make sense to 14-year-olds.", pay: "RM 5,900 / mo" },
+  { title: "Agri-Data Analyst", company: "Sime Darby Plantation · Carey Island", skills: ["nature", "tech"], why: "Reads soil and spreadsheets across palm estates.", pay: "RM 6,800 / mo" },
+  { title: "Sports Rehab Coordinator", company: "Institut Sukan Negara · Bukit Jalil", skills: ["sport", "health"], why: "Gets national athletes back on the field safely.", pay: "RM 6,000 / mo" },
+  { title: "Fintech UX Designer", company: "Grab Malaysia · Petaling Jaya", skills: ["finance", "art"], why: "Makes money screens calm, not scary.", pay: "RM 7,700 / mo" },
+  { title: "Health Content Writer", company: "DoctorOnCall · Kuala Lumpur", skills: ["words", "health"], why: "Explains medicine without the jargon.", pay: "RM 4,800 / mo" },
+  { title: "Culinary Instructor", company: "KDU University College · Shah Alam", skills: ["food", "teach"], why: "Teaches cooking with real patience.", pay: "RM 4,500 / mo" },
+  { title: "Regulatory Affairs Chemist", company: "Pharmaniaga · Puchong", skills: ["science", "law"], why: "Bridges the lab and the NPRA rulebook.", pay: "RM 8,400 / mo" },
 ];
 
 const STOP = new Set(["and", "with", "plus", "or", "a", "an", "the", "who", "i", "am", "background", "in", "of", "+", "&", "also", "who's", "former", "ex"]);

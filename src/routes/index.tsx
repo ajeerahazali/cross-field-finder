@@ -16,7 +16,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const CHIPS = ["nurse + coder", "chef + chemist", "lawyer who codes", "musician & developer", "teacher with a lab background", "farmer into data"];
+const CHIPS = ["nurse + coder", "chef + chemist", "lawyer who codes", "musician & developer", "teacher with a lab background", "agritech", "fintech designer", "food scientist"];
 
 function Index() {
   const [q, setQ] = useState("");
@@ -31,7 +31,7 @@ function Index() {
             Jobs for <span className="text-primary">hybrid</span> backgrounds.
           </h1>
           <p className="mt-3 text-muted-foreground">
-            Two fields, one career. Describe your mix in your own words.
+            Two fields, one career. Curated hybrid roles at real Malaysian organisations — describe your mix in your own words.
           </p>
         </header>
 
