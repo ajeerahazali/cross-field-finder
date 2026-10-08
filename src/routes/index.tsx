@@ -66,7 +66,7 @@ function Index() {
               <p className="text-sm text-muted-foreground">{j.company} · {j.pay}</p>
               <p className="mt-3">{j.why}</p>
               <div className="mt-3 flex gap-2">{j.skills.map((s) => <span key={s} className="rounded border-2 border-border px-2 text-xs font-bold">{s}</span>)}</div>
-              <a href="mailto:hello@simplyunusual.example" className="mt-4 inline-block rounded-lg border-2 border-border bg-primary px-4 py-2 font-bold">Apply</a>
+              <a href={j.url} target="_blank" rel="noopener noreferrer" className="mt-4 inline-block rounded-lg border-2 border-border bg-primary px-4 py-2 font-bold">Apply on their site ↗</a>
             </article>
           ))}
         </section>
