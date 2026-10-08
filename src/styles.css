@@ -142,3 +142,16 @@
     color: var(--color-foreground);
   }
 }
+
+:root {
+  --background: oklch(0.97 0.025 85);
+  --foreground: oklch(0.15 0 0);
+  --card: oklch(0.99 0.015 85);
+  --card-foreground: oklch(0.15 0 0);
+  --primary: oklch(0.68 0.19 45);
+  --primary-foreground: oklch(0.15 0 0);
+  --muted: oklch(0.93 0.03 85);
+  --muted-foreground: oklch(0.38 0 0);
+  --border: oklch(0.15 0 0);
+  --ring: oklch(0.68 0.19 45);
+}
