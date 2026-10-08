@@ -15,22 +15,22 @@ export const SKILLS: Record<string, string[]> = {
   words: ["writer", "writing", "journalist", "editor", "copywriter", "author", "content", "storytelling"],
 };
 
-export type Job = { title: string; company: string; skills: string[]; why: string; pay: string };
+export type Job = { title: string; company: string; skills: string[]; why: string; pay: string; url: string };
 
 // Curated hybrid roles at real Malaysian organisations.
 export const JOBS: Job[] = [
-  { title: "Clinical Informatics Specialist", company: "Sunway Medical Centre · Subang Jaya", skills: ["health", "tech"], why: "Bridges hospital wards and the electronic medical record system.", pay: "RM 7,500 / mo" },
-  { title: "Food Scientist", company: "Nestlé Malaysia · Petaling Jaya", skills: ["food", "science"], why: "Turns kitchen instinct into repeatable, safe recipes at scale.", pay: "RM 6,200 / mo" },
-  { title: "Legal Tech Product Lead", company: "ZICO Law · Kuala Lumpur", skills: ["law", "tech"], why: "Knows contracts and code in the same breath.", pay: "RM 9,800 / mo" },
-  { title: "Audio Software Developer", company: "Media Prima Digital · Bangsar", skills: ["music", "tech"], why: "Hears the bug before it shows up.", pay: "RM 8,100 / mo" },
-  { title: "Medical Illustrator", company: "Taylor's University School of Medicine · Subang", skills: ["health", "art"], why: "Draws the body accurately and beautifully for teaching.", pay: "RM 5,400 / mo" },
-  { title: "Science Curriculum Designer", company: "Cikgu-fy EdTech · Kuala Lumpur", skills: ["teach", "science"], why: "Makes chemistry make sense to 14-year-olds.", pay: "RM 5,900 / mo" },
-  { title: "Agri-Data Analyst", company: "Sime Darby Plantation · Carey Island", skills: ["nature", "tech"], why: "Reads soil and spreadsheets across palm estates.", pay: "RM 6,800 / mo" },
-  { title: "Sports Rehab Coordinator", company: "Institut Sukan Negara · Bukit Jalil", skills: ["sport", "health"], why: "Gets national athletes back on the field safely.", pay: "RM 6,000 / mo" },
-  { title: "Fintech UX Designer", company: "Grab Malaysia · Petaling Jaya", skills: ["finance", "art"], why: "Makes money screens calm, not scary.", pay: "RM 7,700 / mo" },
-  { title: "Health Content Writer", company: "DoctorOnCall · Kuala Lumpur", skills: ["words", "health"], why: "Explains medicine without the jargon.", pay: "RM 4,800 / mo" },
-  { title: "Culinary Instructor", company: "KDU University College · Shah Alam", skills: ["food", "teach"], why: "Teaches cooking with real patience.", pay: "RM 4,500 / mo" },
-  { title: "Regulatory Affairs Chemist", company: "Pharmaniaga · Puchong", skills: ["science", "law"], why: "Bridges the lab and the NPRA rulebook.", pay: "RM 8,400 / mo" },
+  { title: "Clinical Informatics Specialist", company: "Sunway Medical Centre · Subang Jaya", skills: ["health", "tech"], why: "Bridges hospital wards and the electronic medical record system.", pay: "RM 7,500 / mo", url: "https://www.sunwaymedical.com/careers/" },
+  { title: "Food Scientist", company: "Nestlé Malaysia · Petaling Jaya", skills: ["food", "science"], why: "Turns kitchen instinct into repeatable, safe recipes at scale.", pay: "RM 6,200 / mo", url: "https://www.nestle.com.my/jobs" },
+  { title: "Legal Tech Product Lead", company: "ZICO Law · Kuala Lumpur", skills: ["law", "tech"], why: "Knows contracts and code in the same breath.", pay: "RM 9,800 / mo", url: "https://www.zicolaw.com/careers/" },
+  { title: "Audio Software Developer", company: "Media Prima Digital · Bangsar", skills: ["music", "tech"], why: "Hears the bug before it shows up.", pay: "RM 8,100 / mo", url: "https://corporate.mediaprima.com.my/careers/" },
+  { title: "Medical Illustrator", company: "Taylor's University School of Medicine · Subang", skills: ["health", "art"], why: "Draws the body accurately and beautifully for teaching.", pay: "RM 5,400 / mo", url: "https://careers.taylors.edu.my/" },
+  { title: "Science Curriculum Designer", company: "Cikgu-fy EdTech · Kuala Lumpur", skills: ["teach", "science"], why: "Makes chemistry make sense to 14-year-olds.", pay: "RM 5,900 / mo", url: "https://www.jobstreet.com.my/en/job-search/edtech-jobs/" },
+  { title: "Agri-Data Analyst", company: "Sime Darby Plantation · Carey Island", skills: ["nature", "tech"], why: "Reads soil and spreadsheets across palm estates.", pay: "RM 6,800 / mo", url: "https://www.simedarbyplantation.com/careers" },
+  { title: "Sports Rehab Coordinator", company: "Institut Sukan Negara · Bukit Jalil", skills: ["sport", "health"], why: "Gets national athletes back on the field safely.", pay: "RM 6,000 / mo", url: "https://isn.gov.my/career/" },
+  { title: "Fintech UX Designer", company: "Grab Malaysia · Petaling Jaya", skills: ["finance", "art"], why: "Makes money screens calm, not scary.", pay: "RM 7,700 / mo", url: "https://www.grab.com/my/careers/" },
+  { title: "Health Content Writer", company: "DoctorOnCall · Kuala Lumpur", skills: ["words", "health"], why: "Explains medicine without the jargon.", pay: "RM 4,800 / mo", url: "https://www.doctoroncall.com.my/careers" },
+  { title: "Culinary Instructor", company: "KDU University College · Shah Alam", skills: ["food", "teach"], why: "Teaches cooking with real patience.", pay: "RM 4,500 / mo", url: "https://kdu.edu.my/careers/" },
+  { title: "Regulatory Affairs Chemist", company: "Pharmaniaga · Puchong", skills: ["science", "law"], why: "Bridges the lab and the NPRA rulebook.", pay: "RM 8,400 / mo", url: "https://www.pharmaniaga.com/careers/" },
 ];
 
 const STOP = new Set(["and", "with", "plus", "or", "a", "an", "the", "who", "i", "am", "background", "in", "of", "+", "&", "also", "who's", "former", "ex"]);
