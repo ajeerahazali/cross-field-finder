@@ -5,9 +5,9 @@ import { search } from "@/lib/matcher";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SimplyUnusual — jobs for hybrid backgrounds" },
+      { title: "Cross Field Finder — jobs for hybrid backgrounds" },
       { name: "description", content: "Type your mix of skills, like nurse + coder, and find roles built for hybrid backgrounds." },
-      { property: "og:title", content: "SimplyUnusual — jobs for hybrid backgrounds" },
+      { property: "og:title", content: "Cross Field Finder — jobs for hybrid backgrounds" },
       { property: "og:description", content: "Find roles that fit your mixed skills. Search stays on your device." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -26,7 +26,7 @@ function Index() {
     <main className="min-h-screen bg-background px-4 py-8 text-foreground">
       <div className="mx-auto max-w-3xl">
         <header className="mb-6">
-          <p className="text-sm font-bold uppercase tracking-widest text-primary">SimplyUnusual</p>
+          <p className="text-sm font-bold uppercase tracking-widest text-primary">Cross Field Finder</p>
           <h1 className="mt-2 text-4xl font-black leading-tight md:text-6xl">
             Jobs for <span className="text-primary">hybrid</span> backgrounds.
           </h1>
