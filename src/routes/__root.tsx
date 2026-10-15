@@ -78,10 +78,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "SimplyUnusual — jobs for hybrid backgrounds" },
+      { title: "Cross Field Finder — jobs for hybrid backgrounds" },
       { name: "description", content: "Find roles that fit your mixed skills, like nurse + coder or chef + chemist." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "SimplyUnusual — jobs for hybrid backgrounds" },
+      { property: "og:title", content: "Cross Field Finder — jobs for hybrid backgrounds" },
       { property: "og:description", content: "Find roles that fit your mixed skills, like nurse + coder or chef + chemist." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
